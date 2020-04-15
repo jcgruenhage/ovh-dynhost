@@ -14,7 +14,10 @@ cargo install --path .
 
 ## Usage
 
-For usage information, run `ovh-dynhost --help`.
+The basic mode of operation is `ovh-dynhost /path/to/config.toml`.
+For more usage information, run `ovh-dynhost --help`.
+
+You can find a sample configuration file in this repo, it's called `config.sample.toml`.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
