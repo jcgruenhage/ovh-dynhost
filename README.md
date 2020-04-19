@@ -1,3 +1,7 @@
+# ARCHIVAL NOTICE
+
+I built this to help me get my server back online reliably, but after I got it working on the subdomain I used for testing, I realized that OVH's DynHost only works for subdomains. So, doesn't work for my usecase. Then I thought well, what about switching to using their regular API, and I was nearly done with that, but then I looked at how they are authenticating requests, and honestly, fuck that. There is no reason why they need to reinvent the wheel there, but they did. I'm switching to Cloudflare.
+
 # ovh-dynhost
 
 ovh-dynhost is a dynamic DNS daemon for OVH's DynHost feature.
